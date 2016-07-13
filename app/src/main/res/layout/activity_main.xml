@@ -28,7 +28,8 @@
             android:layout_gravity="bottom"
             android:layout_weight="1"
             android:textColor="@color/text"
-            android:textColorHighlight="@color/text" />
+            android:textColorHighlight="@color/text"
+            android:onClick="clickSignUpSign" />
 
         <Button
             android:layout_width="wrap_content"
