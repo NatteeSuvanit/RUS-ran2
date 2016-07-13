@@ -30,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
         Picasso.with(this).load(urlLogo).into(imageView);
     } // Main Method
 
+    public void ClickSignIn(View view) {
+
+    }   // ClickSign
+
+
     public void ClickSignUpMain(View view){
         startActivity(new Intent(MainActivity.this, SignUpActivity.class));
     }
